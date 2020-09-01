@@ -1,10 +1,11 @@
 import React from "react"
 import "./App.css"
+import MoviesDisplay from "./MoviesDisplay"
 
 function App() {
   return (
     <div className="app">
-      <h1>Hello World</h1>
+      <MoviesDisplay />
     </div>
   )
 }
