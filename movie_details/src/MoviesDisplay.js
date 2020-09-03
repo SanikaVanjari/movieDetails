@@ -9,7 +9,6 @@ function MoviesDisplay() {
     fetch("http://www.omdbapi.com/?s=Avengers&page=1&apikey=a2ab21b6")
       .then((response) => response.json())
       .then((data) => {
-        console.log(data.Search)
         setMovies(data.Search)
       })
       .catch((err) => {

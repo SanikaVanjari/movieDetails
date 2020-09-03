@@ -1,0 +1,8 @@
+.moviesDisplay{
+    display: flex;
+    flex: 0.8;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border: 1px solid black;
+}

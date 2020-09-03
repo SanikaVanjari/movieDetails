@@ -1,5 +1,10 @@
 *{
   margin: 0px;
   background-color: lightgray;
+}
 
+.app{
+  display: flex;
+  flex-flow: row;
+  align-items: center;
 }
